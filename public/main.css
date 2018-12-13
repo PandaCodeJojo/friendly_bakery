@@ -1,0 +1,123 @@
+header{
+    background-image: url(Reinbou.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+body{margin:0;}
+
+ul{
+   
+    list-style:none;
+   
+}
+ul li{
+    display: inline-block;
+    font-size: 100px;
+    color: white;
+   
+}
+nav{
+    position: relative;
+    top: 510px;
+    width: 1400px;
+    left: 400px;
+    background-color:black;
+    padding: 5px;
+    height:80px;
+    
+
+}
+
+nav li {display: inline-block;
+    font-size: 80px;
+    padding-right: 50px;
+}
+
+nav a {
+    
+}
+.active {
+    background-color: #4CAF50;
+  }
+
+nav a:hover {
+    your styles
+}
+
+nav a.active, nav a.active:hover {
+    your styles
+}
+
+.box{
+    width: 1835px;
+    height:1000px;
+    margin-top: 0px;
+   
+}
+    .box p{
+        font-size: 60px;
+        color: black;
+        float: right;
+        margin-right: 50px;
+        margin-top: 150px;
+    }
+    .box img{
+       
+            height: 500px;
+            width: 500px;
+            object-fit: fill;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            margin-left: 100px;
+            border: groove 12px black;
+
+            
+
+        }
+
+    #cookiesBox{
+        background-color: blueviolet;
+    }
+
+       
+
+    #muffinsBox{
+        background-color: pink;
+
+    }
+
+    #muffinsBox img{
+        float:right;
+    }
+
+       
+
+    #cakesBox{
+        background-color: aqua;
+
+    }
+    #about{background-color: antiquewhite;}
+    #about img{
+        float:right;
+    }
+.cardimg{
+    height:300px;
+    width:300px;
+}
+.cards{
+    display:inline-block;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    margin-left: 10px;
+    margin-right:10px;
+    
+}
+.cardrow{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}

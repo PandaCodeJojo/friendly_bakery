@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel= "stylesheet" href="main.css">
+    <title>Reinbou Bakes | Cakes </title>
+  </head>
+  <body>
+  <%= erb :"partials/nav" %>
+<div class="cardrow">
+    <div class="card mb-3 cards">
+        <img  class="card-img-top cardimg" src="<%= @chocobro.image %>" alt="Card image cap" >
+        <div class="card-body">
+            <h5 class="card-title">Chocloate Brownie Cochocobro</h5>
+            <p class="card-text">"<%= @chocobro.description %>"</p>
+            <p class="card-text"><small class="text-muted">"<%= @chocobro.price %>"</small></p>
+        </div>
+        </div>
+        <div class="card mb-3 cards">
+        <img  class="card-img-top cardimg" src="<%= @chocopea.image %>" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Chocolate Peanutbutter Caramel Cookie</h5>
+            <p class="card-text">"<%= @chocopea.description %>"</p>
+            <p class="card-text"><small class="text-muted">"<%= @chocopea.price %>"></p>
+        </div>
+        </div>
+        <div class="card mb-3 cards">
+        <img  class="card-img-top cardimg" src="<%= @dubchoco.image %>" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Double Chocolate Chip</h5>
+            <p class="card-text">"<%= @dubchoco.description %>"</p>
+            <p class="card-text"><small class="text-muted">"<%= @dubchoco.price %>"</small></p>
+        </div>
+        </div>
+</div>
+  </body>
+</html>
